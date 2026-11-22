@@ -1,0 +1,11 @@
+function Header(){
+    return(
+        <div>
+            <header>
+                <h1>This is header section</h1>
+            </header>
+        </div>
+    )
+}
+
+export default Header
