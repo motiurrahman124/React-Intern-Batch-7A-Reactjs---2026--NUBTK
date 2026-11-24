@@ -6,6 +6,7 @@ import About from './About'
 import Products from './Products'
 import ProductDetails from './ProductDetails'
 import MainLayout from './layouts/MainLayout'
+import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
