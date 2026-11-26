@@ -7,6 +7,8 @@ import Products from './Products'
 import ProductDetails from './ProductDetails'
 import MainLayout from './layouts/MainLayout'
 import './index.css'
+import LearnUseState from './Learn-useState'
+import Students from './Students'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -17,6 +19,8 @@ createRoot(document.getElementById('root')).render(
           <Route path="/about" element={<About />} />
           <Route path="/products" element={<Products />} />
           <Route path="/products/:id" element={<ProductDetails />} />
+          <Route path="/state" element={<LearnUseState />} />
+          <Route path="/students" element={<Students />} />
         </Route>
       </Routes>
     </BrowserRouter>
